@@ -2,8 +2,14 @@
 
 public class studierender {
     String name;
-    int matrikelnummer=0;
+    static int matrikelnummer=0;
     String studiengang;
+
+    public studierender(String name, String studiengang){
+        this.name = name;
+        matrikelnummer++;
+        this.studiengang = studiengang;
+    }
 
     public void frageStellen(){
         System.out.println("Stellen Sie eine Frage");
