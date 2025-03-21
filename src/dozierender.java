@@ -1,12 +1,16 @@
+import java.util.Scanner;
+
 public class dozierender {
-    public static void main(public static void main(String[]args) {
+    Scanner sc = new Scanner (System.in);
 
         String name;
         String Fakultaet;
         int bueronummer;
 
-        public String frageBeantworten(String ){
+        public String frageBeantworten(){
+            System.out.println("Beantworten Sie die Frage");
+            String antwort = sc.nextLine();
+            return antwort;
 
         }
     }
-}
